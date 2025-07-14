@@ -21,6 +21,11 @@ Now move the unziped folder to /usr/local/bin and cd into it
 
 >cd /usr/local/bin/mouse_hold_button
 
+Make the script executable for the group
+>sudo chgrp -R mouseuser /usr/local/bin/mouse_hold_button
+
+>sudo chmod -R 070 /usr/local/bin/mouse_hold_button
+
 Create an virtual environment activate it and install all requirements
 >python3 -m venv venv
 
