@@ -18,4 +18,5 @@ I have downloaded the repository into my Download folder. Now you have to unpack
 
 Now move the unziped folder to /usr/local/bin and cd into it
 >sudo mv ~/Downloads/mouse_hold_button /usr/local/bin/
+
 >cd /usr/local/bin/mouse_hold_button
