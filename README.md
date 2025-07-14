@@ -20,3 +20,10 @@ Now move the unziped folder to /usr/local/bin and cd into it
 >sudo mv ~/Downloads/mouse_hold_button /usr/local/bin/
 
 >cd /usr/local/bin/mouse_hold_button
+
+Create an virtual environment activate it and install all requirements
+>python3 -m venv venv
+
+>source /venv/bin/activate
+
+>pip install -r requirements.txt
