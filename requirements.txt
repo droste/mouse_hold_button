@@ -1,0 +1,4 @@
+evdev
+pynput
+python-xlib
+six
